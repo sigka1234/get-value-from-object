@@ -1,6 +1,5 @@
 # get-value-from-value
 
-<br>
 
 **- Get Data from Object Without Error**               
 

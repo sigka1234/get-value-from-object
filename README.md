@@ -1,23 +1,32 @@
 # get-value-from-value
-***get data from object without error***               
-<br>
-<br>
-<br>
-# installing
+
 <br>
 
-***npm:***
+**- get data from object without error**               
+
+<br>
+
+***
+
+<br>
+
+# installing
+
+<br>
+
+**npm:**
 ```
 npm install get-value-from-value
 ```
-***yarn:***
+**yarn:**
 ```
 yarn add get-value-from-value
 ```
 <br>
-<br>
-<br>
 
+***
+
+<br>
 
 # import 
 ```JavaScript
@@ -27,6 +36,11 @@ import { default, get2 } from "get-value-from-value"
 
 var get = require("get-value-from-value")
 ```
+<br>
+
+***
+
+<br>
 
 # Useage
 

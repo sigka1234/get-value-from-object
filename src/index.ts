@@ -1,5 +1,5 @@
-const getValue = (object, depth, defaultPrint = '') => {
-    const _parseArrayData = (state, str) => {
+const get = (object: any, depth: string, defaultPrint: any = '') => {
+    const _parseArrayData = (state: any, str: string): any => {
         let result = { result: false, data: "" }
         const leftCount = (str.match(/\[/g) || []).length
         const rightCount = (str.match(/]/g) || []).length
@@ -20,7 +20,7 @@ const getValue = (object, depth, defaultPrint = '') => {
         }
         return result
     }
-    const _checkDepth = (state, str = '') => {
+    const _checkDepth = (state: any, str: string = ''): any => {
         if (str.indexOf('.') >= 0) {
             let array = str.split('.')
             if (state && array[0]) {
@@ -46,4 +46,4 @@ const getValue = (object, depth, defaultPrint = '') => {
     }
 }
 
-export default getValue
+export default get

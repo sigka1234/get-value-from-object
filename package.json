@@ -1,6 +1,6 @@
 {
   "name": "get-value-from-object",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "start": "nodemon example/index.js --watch  ./ --exec babel-node",
     "build": "babel src -d dist"
@@ -19,5 +19,16 @@
   },
   "devDependencies": {
     "babel-plugin-add-module-exports": "^1.0.4"
-  }
+  },
+  "keywords": [
+    "node",
+    "get",
+    "value",
+    "object",
+    "get-object",
+    "get-value",
+    "get-object-value",
+    "get-value-object",
+    "object parsing"
+  ]
 }

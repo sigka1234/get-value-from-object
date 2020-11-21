@@ -2,7 +2,7 @@
 
 <br>
 
-**- get data from object without error**               
+**- Get Data from Object Without Error**               
 
 <br>
 
@@ -45,14 +45,14 @@ var get = require("get-value-from-value")
 # Useage
 
 ```JavaScript
-const object =  {
-        name: "John",
-        birth: { age: 25, day: "1999-01-01" },
-        hobbies: [
-            "running",
-            { kind: "camera", model: "canon 5d" },
-            ["sing", { title: "Let it be!" }],
-        ]
+const object = {
+    name: "John",
+    birth: { age: 25, day: "1999-01-01" },
+    hobbies: [
+        "running",
+        { kind: "camera", model: "canon 5d" },
+        ["sing", { title: "Let it be!" }],
+    ]
 }
 ```
 

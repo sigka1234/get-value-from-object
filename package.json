@@ -1,7 +1,0 @@
-{
-  "name": "get-value-from-object",
-  "version": "1.0.0",
-  "description": "get values from object",
-  "main": "index.js",
-  "license": "MIT"
-}

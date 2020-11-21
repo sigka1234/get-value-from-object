@@ -1,18 +1,27 @@
 # get-value-from-value
 It is possible get data from object without error
 
+
+
+
+
 # installing
 
 ***npm:***
 ```
 npm install get-value-from-value
 ```
-***using yarn:***
+***yarn:***
 ```
 yarn add get-value-from-value
 ```
 
 ***
+
+
+
+
+
 
 # Useage
 ```JavaScript

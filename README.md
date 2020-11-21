@@ -6,7 +6,7 @@
 
 <br>
 
-***
+
 
 <br>
 
@@ -24,7 +24,7 @@ yarn add get-value-from-value
 ```
 <br>
 
-***
+
 
 <br>
 
@@ -38,7 +38,7 @@ var get = require("get-value-from-value")
 ```
 <br>
 
-***
+
 
 <br>
 

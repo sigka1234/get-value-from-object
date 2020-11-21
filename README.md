@@ -1,6 +1,17 @@
 # get-value-from-value
-___ 
 
+# installing
+
+### using npm:
+```
+npm install get-value-from-value
+```
+### using yarn
+```
+yarn add get-value-from-value
+```
+
+# How to Use
 ```
 const object =  {
         name: "John",
@@ -13,6 +24,7 @@ const object =  {
 }
 ```
 
+```
 get(object, "name") // John
 get(object, "birth.age") // 25
 get(object, "hobbies[0]") // running
@@ -24,3 +36,4 @@ get(object, "hobbies[2][1].title") // Let it be!
 get(object, "name2", null) // null
 get(object, "birth.age", 29) // 25
 get(object, "birth.age.my", 29) // 29`
+```

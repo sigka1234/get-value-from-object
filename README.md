@@ -1,5 +1,3 @@
-# get-value-from-value
-
 # installing
 
 ### using npm:
@@ -11,9 +9,11 @@ npm install get-value-from-value
 yarn add get-value-from-value
 ```
 
+***
+
 # How to Use
 ```
-const object =  {
+const <span style="color:red">object</span> =  {
         name: "John",
         birth: { age: 25, day: "1999-01-01" },
         hobbies: [
@@ -37,3 +37,5 @@ get(object, "name2", null) // null
 get(object, "birth.age", 29) // 25
 get(object, "birth.age.my", 29) // 29`
 ```
+
+***

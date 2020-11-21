@@ -22,8 +22,6 @@ npm install get-value-from-value
 ```
 yarn add get-value-from-value
 ```
-<br>
-
 
 
 <br>
@@ -39,8 +37,6 @@ var get = require("get-value-from-value")
 <br>
 
 
-
-<br>
 
 # Useage
 
@@ -70,6 +66,8 @@ get(object, "birth.age", 29) // 25
 get(object, "birth.age.my", 29) // 29`
 ```
 
+<br>
+<br>
 <br>
 <br>
 <br>

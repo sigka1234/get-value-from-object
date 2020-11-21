@@ -1,6 +1,8 @@
 # get-value-from-value
+___ 
 
-`const object =  {
+```
+const object =  {
         name: "John",
         birth: { age: 25, day: "1999-01-01" },
         hobbies: [
@@ -8,17 +10,8 @@
             { kind: "camera", model: "canon 5d" },
             ["sing", { title: "Let it be!" }],
         ]
-}`
-`const object = {
-    name: "John",
-    birth: { age: 25, day: "1999-01-01" },
-    hobbies: [
-        "running",
-        { kind: "camera", model: "canon 5d" },
-        ["sing", { title: "Let it be!" }],
-    ]
 }
-
+````
 get(object, "name") // John
 get(object, "birth.age") // 25
 get(object, "hobbies[0]") // running

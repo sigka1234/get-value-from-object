@@ -11,9 +11,9 @@
   "author": "jaewoo <sigka1234@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sigka1234/get-value-from-value"
+    "url": "https://github.com/sigka1234/get-value-from-object"
   },
-  "homepage": "https://github.com/sigka1234/get-value-from-value",
+  "homepage": "https://github.com/sigka1234/get-value-from-object",
   "dependencies": {
     "@babel/cli": "^7.12.7",
     "@babel/core": "^7.12.7",

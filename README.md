@@ -27,9 +27,7 @@ yarn add get-value-from-object
 
 # import 
 ```JavaScript
-import get from "get-value-from-object" 
-
-import { default, get2 } from "get-value-from-object" 
+import get from "get-value-from-object"  
 
 var get = require("get-value-from-object")
 ```

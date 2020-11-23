@@ -1,4 +1,4 @@
-# get-value-from-value
+# get-value-from-object
 
 
 **- Get Data from Object Without Error**               
@@ -15,11 +15,11 @@
 
 **npm:**
 ```
-npm install get-value-from-value
+npm install get-value-from-object
 ```
 **yarn:**
 ```
-yarn add get-value-from-value
+yarn add get-value-from-object
 ```
 
 
@@ -27,11 +27,11 @@ yarn add get-value-from-value
 
 # import 
 ```JavaScript
-import get from "get-value-from-value" 
+import get from "get-value-from-object" 
 
-import { default, get2 } from "get-value-from-value" 
+import { default, get2 } from "get-value-from-object" 
 
-var get = require("get-value-from-value")
+var get = require("get-value-from-object")
 ```
 <br>
 

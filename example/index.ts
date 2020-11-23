@@ -1,4 +1,5 @@
-import get from "../src"
+// import get from "../dist"
+import get from "get-value-from-object"
 //  import { default as name } from "../src"
 // var get = require("../src")
 // var name = require("../src")
@@ -13,8 +14,8 @@ const object = {
     ]
 }
 
-get(object, "name") // John
-get(object, "birth.age") // 25
+console.log(get(object, "name")) // John
+console.log(get(object, "birth.age")) // 25
 get(object, "hobbies[0]") // running
 get(object, "hobbies[1].model") // canon 5d
 get(object, "hobbies[2][0]") // sing

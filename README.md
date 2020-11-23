@@ -37,7 +37,7 @@ var get = require("get-value-from-object")
 
 
 
-# Useage
+# Usage
 
 ```JavaScript
 const object = {

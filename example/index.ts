@@ -1,6 +1,6 @@
-// import get from "../dist"
-import get from "get-value-from-object"
-//  import { default as name } from "../src"
+import get from "../dist"
+// import get from "get-value-from-object"
+// import { default as name } from "../src"
 // var get = require("../src")
 // var name = require("../src")
 

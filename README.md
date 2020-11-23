@@ -62,7 +62,7 @@ get(object, "hobbies[2][1].title") // Let it be!
 // set for default values
 get(object, "name2", null) // null
 get(object, "birth.age", 29) // 25
-get(object, "birth.age.my", 29) // 29`
+get(object, "birth.age.my", 29) // 29
 ```
 
 <br>

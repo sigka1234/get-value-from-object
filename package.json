@@ -1,6 +1,6 @@
 {
   "name": "get-value-from-object",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "scripts": {
     "start": "nodemon example/index.ts --watch  ./ --exec ts-node",
     "build": "tsc"
@@ -14,21 +14,22 @@
     "url": "https://github.com/sigka1234/get-value-from-object"
   },
   "homepage": "https://github.com/sigka1234/get-value-from-object",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "@babel/cli": "^7.12.7",
     "@babel/core": "^7.12.7",
     "@babel/node": "^7.12.6",
     "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.12.7",
     "babel-loader": "^8.2.1",
-    "ts-node": "^9.0.0"
-  },
-  "devDependencies": {
     "babel-plugin-add-module-exports": "^1.0.4",
+    "ts-node": "^9.0.0",
     "typescript": "^4.1.2"
   },
   "keywords": [
     "node",
+    "react",
+    "react-native",
     "get",
     "value",
     "object",

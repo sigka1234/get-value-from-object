@@ -1,13 +1,13 @@
 {
   "name": "get-value-from-object",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "scripts": {
     "start": "nodemon example/index.ts --watch  ./ --exec ts-node",
     "build": "tsc"
   },
   "main": "dist/index.js",
   "type": "dist/index.d.ts",
-  "repository": "git@github.com:sigka1234/get-value-from-value.git",
+  "repository": "git@github.com:sigka1234/get-value-from-object.git",
   "author": "jaewoo <sigka1234@gmail.com>",
   "license": "MIT",
   "bugs": {
